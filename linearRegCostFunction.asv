@@ -26,7 +26,7 @@ grad = zeros(size(theta));
     
     J = J + (lambda/(2*m)) * nobias_theta' * nobias_theta;
 
-    grad = (1/m) * (X' * vec) + (lambda/m) * nobias_theta;
+    grad = X'
 
 
 
